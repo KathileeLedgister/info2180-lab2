@@ -1,0 +1,117 @@
+html,body{
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+    color: #2D3748;
+}
+
+/*header image*/
+.hd-img {
+  border-radius: 50%;
+}
+
+/*centering (header) elements*/
+.centre-stage{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+/*Blog title*/
+.hd-0{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #48BB78
+}
+
+/*About section font color*/
+.about-hd{
+    color: #000000;
+}
+
+h5{
+    color: #718096;
+}
+
+/*header stylings*/
+.format{
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #FFFFFF;
+}
+
+/*link styling*/
+a{
+    color: #4299E1;
+}
+
+div.dashed {
+  border-top: 3px dashed #bbb;
+  border-top-color: rgb(250, 106, 83);
+}
+
+.card {
+  padding: 20px;
+}
+
+/*article images*/
+.img-atcl{
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 2px;
+}
+
+.text-wrap{
+    overflow-wrap: break-word;
+}
+
+.text-format{
+    text-align: justify;
+    text-justify: auto;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0,1fr));
+  gap: 20px;
+}
+
+.header {
+  grid-column: 1 / 13;
+  grid-row: 1;
+  background-color: #63B3ED;
+}
+
+.article {
+  grid-column: 2 / 9;
+  grid-row: 2;
+}
+
+.aside {
+  grid-column: 10 / 13;
+  grid-row: 2;
+}
+
+
+.footer {
+  grid-column: 1 / 13;
+  grid-row: 4;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #2C5282;
+  color: #FFFFFF;
+}
+
+.aticle-gap{
+    margin-top: 20px;
+}
+
+/*About me section color*/
+.about{
+    background-color: #E2E8F0;
+}
+
+
